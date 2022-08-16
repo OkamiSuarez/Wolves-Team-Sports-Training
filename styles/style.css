@@ -274,39 +274,6 @@ main {
   justify-content: center;
   text-decoration: none;
 }
-/* .textoDer a:hover{
-    background-color: rgb(54, 85, 200);
-    text-align: center;
-    transition: all 0.5s linear;
-    align-items: center;
-    border-radius: 30px;
-    float: unset;
-    display: block;
-    padding: 8%;
-    margin: auto;
-    font-size: 24px;
-    color: #ffffff;
-    width: 75%;
-} */
-/* .articuloBlog{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-}
-.articuloBlog img{
-    width: 400px;
-    height: 300px;
-
-} */
-/* .imagenIzq{
-    display: flex;
-    width: 95%;
-    border-radius: 20px;
-} */
 .imgSuplemento {
   width: 400px;
 }
@@ -376,19 +343,126 @@ main {
   width: 90%;
   line-height: 35px;
 }
-.signInButton {
-  background-color: #000;
-  color: wheat;
-  align-items: center;
+.inicioSesion{
+  display: grid;
 }
-/* .bloqueSignIn a:hover{
-    transition: all 0.5s linear;
-    text-decoration: none;
+.formSignIn{
+  display: grid;
+}
+.signInButton{
+  background-color: rgb(255, 255, 255);
+  background: #ffffff;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 70;
+  line-height: 15px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border-style: solid;
+} 
+.signInButton:hover{
+  background-color: rgb(85, 216, 73);
+  transition: all 0.8s linear;
+  margin: auto;
+  color: #000000;
+  line-height: 18px;
+} 
+.botonFormReset{
+  background-color: rgb(255, 255, 255);
+  background: #ffffff;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 70;
+  line-height: 15px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border-style: solid;
+} 
+.botonFormReset:hover{
+background-color: rgb(227, 68, 68);
+    transition: all 0.8s linear;
     margin: auto;
-    color: #1616b8;
-    line-height: 40px;
-} */
-
+    color: #ffffff;
+    line-height: 18px;
+} 
+.botonFormRegister{
+  background-color: rgb(255, 255, 255);
+  background: #ffffff;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 70;
+  line-height: 15px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border-style: solid;
+} 
+.botonFormRegister:hover{
+    background-color: rgb(85, 216, 73);
+    transition: all 0.8s linear;
+    margin: auto;
+    color: #000000;
+    line-height: 18px;
+} 
+.signInRegister{
+  background-color: rgb(255, 255, 255);
+  background: #ffffff;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 70;
+  line-height: 15px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border-style: solid;
+  text-decoration: none;
+}
+.signInRegister:hover{
+  background-color: rgb(0, 0, 0);
+      transition: all 0.8s linear;
+      margin: auto;
+      color: #ffffff;
+      line-height: 18px;
+      text-decoration: none;
+  } 
 .containerProgramas {
   display: flex;
   flex-wrap: wrap;
@@ -431,7 +505,60 @@ main {
   padding-left: 20px;
   padding-right: 20px;
 }
-
+.buttonCompraTrainings{
+  background: #95d697;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 70;
+  line-height: 15px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border-style: solid;
+} 
+.buttonCompraTrainings:hover{
+    background: #19e120;
+    transition: all 0.8s linear;
+    margin: auto;
+    color: #ffffff;
+    line-height: 18px;
+}
+.askSupport{
+  background: #808080;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 70;
+  line-height: 15px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border-style: solid;
+} 
+.askSupport:hover{
+  background: #ffffff;
+  transition: all 0.8s linear;
+  margin: auto;
+  color: #000000;
+  line-height: 18px;
+}
 footer {
   display: flex;
   bottom: 0%;
