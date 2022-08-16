@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-<!-- Codigo base -->
+    <!-- Codigo base -->
     <title>WTST</title>
     <link rel="stylesheet" href="../styles/style.css">
-<!-- Meta  -->
+    <!-- Meta  -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Favicon -->
+    <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="../imgs/WolfFavIcon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../imgs/WolfFavIcon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="../imgs/WolfFavIcon/apple-icon-72x72.png">
@@ -19,7 +20,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="../imgs/WolfFavIcon/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="../imgs/WolfFavIcon/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="../imgs/WolfFavIcon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="../imgs/WolfFavIcon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../imgs/WolfFavIcon/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../imgs/WolfFavIcon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="../imgs/WolfFavIcon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../imgs/WolfFavIcon/favicon-16x16.png">
@@ -37,7 +38,7 @@
     <!-- header -->
     <header class="header">
         <div class="topContainer">
-            <img src="../imgs\wolfIconHeader.jpg" id="logoHeader"/>
+            <img src="../imgs\wolfIconHeader.jpg" id="logoHeader" />
             <nav class="textoHeader">
                 <a href="../index.html" id="textoHeader">Wolves Team</a>
                 <a href="../index.html" id="textoHeader">Sports Training</a>
@@ -62,65 +63,70 @@
 
         <h1>Register</h1>
         <section class="seccionRegistro">
-                <form class="formRegister" id="registroUsuario">
-                    <fieldset form="formInicioSesion" name="FormInicioSesion">
-                        <legend>WTST</legend>
-    
+            <form class="formRegister" id="registroUsuario">
+                <fieldset form="formInicioSesion" name="FormInicioSesion">
+                    <legend>WTST</legend>
+
                     <label for="registro">Enter your name:</label>
-                        <input type="text" id="nombre" class="slider" required>
-                            <br>
+                    <input type="text" id="nombre" class="slider" required>
+                    <br>
                     <label for="registro">Enter your adress:</label>
-                        <input type="text" id="direccion" class="slider" required>
-                            <br>
+                    <input type="text" id="direccion" class="slider" required>
+                    <br>
                     <label for="genero">Enter your gender:</label>
-                        <select name="gender">
-                            <option value="Men">Men</option>
-                            <option value="Women">Women</option>
-                        </select>  
+                    <select name="gender">
+                        <option value="Men">Men</option>
+                        <option value="Women">Women</option>
+                    </select>
                     <br>
                     <label for="registro">Enter your e-mail:</label>
-                        <input type="email" id="correo" class="slider" required>
-                            <br>
+                    <input type="email" id="correo" class="slider" required>
+                    <br>
                     <label for="registro">Enter your password:</label>
-                        <input type="text" id="contraseña" class="slider" required>
-                            <br>
+                    <input type="text" id="contraseña" class="slider" required>
+                    <br>
                     <label for="registro">Enter your phone number:</label>
-                        <input type="tel" id="phone" class="slider" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
-                            <br>
+                    <input type="tel" id="phone" class="slider" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                        required>
+                    <br>
                     <label for="registro" id="solicitud">Please Verify all your data is correct</label>
-                            <br>
+                    <br>
                     <label for="registro" id="solicitud">Accept terms and conditions</label>
-                        <input type="checkbox" placeholder="accept data" required>
-                            <br>
+                    <input type="checkbox" placeholder="accept data" required>
+                    <br>
                     <div>I want to recieve newsletter</div>
-                        <input type="radio" id="gender" name="gender" value="M" class="slider">
-                            <br>
-                        <input type="reset" value="Reset values" class="botonForm" id="resetDatos">
-                        <input type="submit" value="Register" class="botonForm" id="registroDatosUsuario">
-                    </fieldset>
-                </form>        
-                <a href="signIn.html">Sign In</a>            
+                    <input type="radio" id="gender" name="gender" value="M" class="slider">
+                    <br>
+                    <input type="reset" value="Reset values" class="botonForm" id="resetDatos">
+                    <input type="submit" value="Register" class="botonForm" id="registroDatosUsuario">
+                </fieldset>
+            </form>
+            <a href="signIn.html">Sign In</a>
         </section>
 
-        
+
 
     </main>
 
     <!-- Footer -->
-<footer class="footer">
-    <div class="footerContainer">
-        <nav class="footerLinks">
-            <h1 class="footerResponsive">Follow Us</h1>
-            <a href="https://www.facebook.com/okami.suarez.5" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com/okami_suarez/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/okami-su%C3%A1rez-35009b221/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>    
-        </nav>
-        <nav class="footerSupport">
-            <a href="support.html" id="soporte">Support</a>
-        </nav>
-    </div>
-</footer>
+    <footer class="footer">
+        <div class="footerContainer">
+            <nav class="footerLinks">
+                <h1 class="footerResponsive">Follow Us</h1>
+                <a href="https://www.facebook.com/okami.suarez.5" target="_blank"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/okami_suarez/?hl=en" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/okami-su%C3%A1rez-35009b221/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </nav>
+            <nav class="footerSupport">
+                <a href="support.html" id="soporte">Support</a>
+            </nav>
+        </div>
+    </footer>
 
 </body>
 <script src="https://kit.fontawesome.com/771591d324.js" crossorigin="anonymous"></script>
+
 </html>
