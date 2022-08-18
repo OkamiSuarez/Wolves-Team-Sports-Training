@@ -297,6 +297,28 @@ main {
   width: 90%;
   padding-bottom: 45px;
 }
+.storeSection h1{
+  padding: 1rem;
+  color: #5E5DF0;
+}
+.storeCards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+.card{
+  width: 18rem;
+  background-color: rgba(66, 88, 183, 0.364);
+  margin-bottom: 1rem;
+}
+.card img{
+  width: 70%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 .containerRegistros {
   display: flex;
   flex-direction: column;

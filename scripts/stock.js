@@ -1,7 +1,7 @@
 const products = [
     {
         id : 1,
-        name : "Proteina",
+        name : "Protein",
         cantidad : 1,
         brand : "Optimum Nutrition",
         price : 900,
@@ -22,7 +22,7 @@ const products = [
     },
     {
         id : 3,
-        name : "Creatina",
+        name : "Creatine",
         cantidad : 1,
         brand : "optimum Nutrition",
         img: '../imgs/store/creatinaOn.png',
@@ -32,7 +32,7 @@ const products = [
     },
     {
         id : 4,
-        name : "Cafeína",
+        name : "Caffeine",
         cantidad : 1,
         brand : "GAT",
         img: '../imgs/store/cafeinaGat.png',
