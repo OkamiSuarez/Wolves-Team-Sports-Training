@@ -1,8 +1,8 @@
 * {
   font-family: "Noto Serif", serif;
 }
-body {
-  background-color: #a6c6e0;
+body{
+  background-color: #a6c6e0  !important;
   line-height: 20px;
   margin: 0px;
   display: flex;
@@ -130,6 +130,39 @@ main {
   border-radius: 90px;
   width: 90px;
   height: 90px;
+}
+.carouselText{
+  background-color: rgb(255, 255, 255) ;
+  border-radius: 1rem;
+  opacity: 0.7;
+}
+.carouselText h5{
+  color: #000;
+}
+.carouselText p{
+  color: #000;
+}
+.carouselText2{
+  background-color: rgb(0, 0, 0) ;
+  border-radius: 1rem;
+  opacity: 0.85;
+}
+.carouselText2 h5{
+  color: rgb(255, 255, 255);
+}
+.carouselText2 p{
+  color: rgb(255, 255, 255);
+}
+.carouselText3{
+  background-color: rgb(14, 2, 2) ;
+  border-radius: 1rem;
+  opacity: 0.85;
+}
+.carouselText3 h5{
+  color: rgb(255, 0, 0);
+}
+.carouselText3 p{
+  color: rgb(255, 0, 0);
 }
 .gridIndex {
   display: grid;
@@ -305,19 +338,23 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-content: center;
   align-items: center;
+  margin: auto;
 }
 .card{
   width: 18rem;
   background-color: rgba(66, 88, 183, 0.364);
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
 }
 .card img{
-  width: 70%;
+  width: 45%;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+.stretched-link::after {
+  position: initial !important;
 }
 .containerRegistros {
   display: flex;
