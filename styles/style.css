@@ -221,13 +221,17 @@ main {
   align-content: center;
   align-items: center;
   justify-items: center;
-  background-color: #7082c1;
   border-radius: 40px;
   padding: 15px;
-  text-align: justify;
+  text-align: center;
   margin: 5px 5px 5px 5px;
 }
-.imgBlog {
+.contenedorCard{
+  background-color: #484545e0;
+  color: rgb(255, 255, 255);
+  border-radius: .3rem;
+}
+/* .imgBlog {
   display: grid;
   justify-content: center;
   align-items: center;
@@ -238,7 +242,7 @@ main {
 .blogImg {
   width: 90%;
   border-radius: 30px;
-}
+} */
 .container {
   display: flex;
   justify-content: space-around;
@@ -542,7 +546,7 @@ background-color: rgb(227, 68, 68);
 }
 .thProgramsBasic {
   background-color: rgba(37, 133, 178, 0.525);
-  color: rgb(0, 0, 0);
+  color: rgb(18, 75, 188);
   font-size: 20px;
   padding: 10px;
   padding-left: 20px;
@@ -565,9 +569,8 @@ background-color: rgb(227, 68, 68);
   padding-right: 20px;
 }
 .buttonCompraTrainings{
-  background: #95d697;
+  background: #f4f5f4;
   border-radius: 999px;
-  box-shadow: #5E5DF0 0 10px 20px -10px;
   box-sizing: border-box;
   color: #000000;
   cursor: pointer;
@@ -585,11 +588,10 @@ background-color: rgb(227, 68, 68);
   border-style: solid;
 } 
 .buttonCompraTrainings:hover{
-    background: #19e120;
+    background: #6aca4c;
     transition: all 0.8s linear;
     margin: auto;
-    color: #ffffff;
-    line-height: 18px;
+    color: #000000;
 }
 .askSupport{
   background: #808080;

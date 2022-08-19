@@ -70,17 +70,19 @@
         <section class="seccionRegistro">
             <div class="supportForm">
                 <form class="formSupport" id="support">
-                    <label for="name">Enter your name</label>
-                    <input type="text" class="slider" required>
-                    <br>
-                    <label for="email">Enter your e-mail</label>
-                    <input type="email" class="slider" required>
-                    <br>
-                    <label for="inicioSesion">Enter your question</label>
-                    <input type="text" class="slider" required>
-                    <br>
-                    <textarea class="slider"> Enter your comments</textarea>
-                    <br>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Questions or comments</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
                     <input type="submit" class="askSupport" value="Ask for support help" onclick="verificarLogin()">
                     <br>
                 </form>

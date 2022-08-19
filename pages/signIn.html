@@ -64,33 +64,26 @@
 
     <!-- Form inicio de sesion -->
     <main class="containerRegistros">
+        <br>
+        <h1>WTST</h1>
 
-        <h1>Sign In</h1>
-        <section class="seccionRegistro">
-            <div class="inicioSesion">
-                <form class="formSignIn" id="formInicioSesion">
-                    <fieldset form="formInicioSesion" name="FormInicioSesion">
-                        <legend>WTST</legend>
-                        <label for="inicioSesion">Enter your e-mail:</label>
-                        <input type="email" id="correoVerificacion" class="slider" required>
-                        <br>
-                        <label for="inicioSesion">Enter your password:</label>
-                        <input type="password" id="contraseñaVerificacion" class="slider" required> <span
-                            id="cambiarVistaContraseña" onclick="cambiarVistaContraseña()"><i
-                                class="fa-solid fa-eye"></i></span>
-                        <br>
-                        <input type="submit" value="Sign In" class="signInButton" id="botonInicioSesion"
-                            onclick="verificarLogin()">
-                        <br>
-                    </fieldset>
-                </form>
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+                <button type="submit" class="btn btn-primary">Sign In</button>
+        </form>
             <br>
             <a href="register.html" class="signInRegister">Register</a>
-        </section>
-
-
     </main>
+
+    <!-- form bootstrap  -->
+
 
     <!-- Footer -->
     <footer class="footer">
