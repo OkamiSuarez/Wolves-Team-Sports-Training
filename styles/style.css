@@ -209,11 +209,19 @@ main {
   align-content: center;
   margin: 5px 5px 5px 5px;
 }
-.gridBlog {
-  display: grid;
+.flexBlog {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
 }
 .tituloBlog {
   text-align: center;
+}
+.mainBlog{
+  display: flex;
 }
 .articuloBlog {
   display: grid;
@@ -227,9 +235,17 @@ main {
   margin: 5px 5px 5px 5px;
 }
 .contenedorCard{
+  display: flex;
   background-color: #484545e0;
   color: rgb(255, 255, 255);
   border-radius: .3rem;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.imgCardBlog{
+  width: rem !important;
 }
 /* .imgBlog {
   display: grid;
@@ -674,12 +690,12 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
-  .containerGridIzq {
+  /* .containerGridIzq {
     grid-template-columns: 50% 45%;
   }
   .containerGridDer {
-    grid-template-columns: 50% 45%;
-  }
+    grid-template-columns: 100%;
+  } */
   .blogText {
     font-size: 20px;
     line-height: 25px;
