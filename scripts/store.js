@@ -2,7 +2,7 @@ const cardDiv = document.getElementById("storeCards");
 
 products.forEach((product) => {
   const div = document.createElement("div");
-  div.classList.add(`card`);
+  div.classList.add(`card-container`);
   div.innerHTML = `
     
     <div class="card text-center">
@@ -19,9 +19,7 @@ products.forEach((product) => {
         <div class="card-footer">
             <button type="button" class="btn btn-success" onclick="buyProduct(${product.id})" id="botonDeCompra${product.id}">Buy now</button>
         </div>
-</div>
-
-    `;
+    </div>`;
   cardDiv.appendChild(div);
 });
 

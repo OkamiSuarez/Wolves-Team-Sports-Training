@@ -143,6 +143,11 @@ main {
   width: 90px;
   height: 90px;
 }
+.containerCarousel{
+  display: flex;
+  margin: 1rem;
+  max-width: 40rem;
+}
 .carouselText{
   background-color: rgb(255, 255, 255) ;
   border-radius: 1rem;
@@ -178,6 +183,7 @@ main {
 }
 .gridIndex {
   display: grid;
+  justify-items: center;
 }
 .containerGridIzq {
   display: grid;
@@ -193,7 +199,7 @@ main {
 .containerGridDer {
   display: grid;
   padding: 2%;
-  grid-template-columns: 30% 60%;
+  grid-template-columns: 20% 50%;
   grid-column-gap: 20px;
   align-content: space-evenly;
   justify-content: center;
@@ -209,9 +215,12 @@ main {
   justify-items: center;
   background-color: #7082c1;
   border-radius: 40px;
-  padding: 15px;
+  padding: 25px;
   text-align: justify;
-  margin: 5px 5px 5px 5px;
+  margin: auto;
+}
+.textoGrid{
+  padding: 0.5rem;
 }
 .imgGrid {
   display: grid;
@@ -228,9 +237,11 @@ main {
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
+  margin-top: 0.5rem;
 }
 .tituloBlog {
   text-align: center;
+  margin-top: 1rem;
 }
 .mainBlog{
   display: flex;
@@ -375,10 +386,10 @@ main {
   align-items: center;
   margin: auto;
 }
-.card{
-  width: 18rem;
-  background-color: rgba(66, 88, 183, 0.364);
-  margin-bottom: 0rem;
+.card-container{
+  width: 20rem;
+  background-color: rgba(191, 28, 28, 0.364);
+  margin: 1rem;
 }
 .card img{
   width: 45%;
@@ -566,15 +577,14 @@ background-color: rgb(227, 68, 68);
 }
 .programasTabla {
   display: flex;
-  padding-bottom: 50px;
+  padding-bottom: 2rem;
 }
 .tablePrograms {
   text-align: center;
-  background-color: #3b4fb846;
 }
 .thProgramsBasic {
-  background-color: rgba(37, 133, 178, 0.525);
-  color: rgb(18, 75, 188);
+  color: #ff00a2;
+  text-align: center;
   font-size: 20px;
   padding: 10px;
   padding-left: 20px;
@@ -583,7 +593,8 @@ background-color: rgb(227, 68, 68);
 .thProgramsIntermediate {
   background-color: #3a3a93b6;
   font-size: 20px;
-  color: rgb(239, 148, 148);
+  color: #b8288a;
+  text-align: center;
   padding: 10px;
   padding-left: 20px;
   padding-right: 20px;
@@ -591,7 +602,8 @@ background-color: rgb(227, 68, 68);
 .thProgramsAdvanced {
   background-color: #19198de2;
   font-size: 20px;
-  color: rgb(255, 255, 255);
+  color: #ff0000;
+  text-align: center;
   padding: 10px;
   padding-left: 20px;
   padding-right: 20px;
@@ -764,6 +776,10 @@ footer {
   .containerGridDer {
     grid-template-columns: 60% 40%;
   }
+  .containerCarousel{
+    max-width: 35rem;
+  }
+  
 }
 @media screen and (max-width: 768px) {
   #textoHeader {
@@ -811,6 +827,9 @@ footer {
   }
   .containerGridDer {
     grid-template-columns: 60% 40%;
+  }
+  .containerCarousel{
+    max-width: 30rem;
   }
 }
 @media screen and (max-width: 600px) {
@@ -885,6 +904,33 @@ footer {
     -webkit-border-horizontal-spacing: 15px;
     -webkit-border-vertical-spacing: 15px;
   }
+  .containerCarousel{
+    max-width: 20rem;
+  }
+  .carouselText0{
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 1rem;
+    opacity: 0.7;
+  }
+  .carouselText0 h5{
+    color: #000;
+  }
+  .carouselText0 p{
+    color: #000;
+  }
+  .carouselText{
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 1rem;
+    opacity: 0.7;
+  }
+  .carouselText h5{
+    color: #000;
+    font-size: 1rem;
+  }
+  .carouselText p{
+    color: #000;
+    font-size:0.8rem;
+  }
 }
 @media screen and (max-width: 480px) {
   #textoHeaderResponsive {
@@ -926,8 +972,6 @@ footer {
   .navegador ul li a:hover {
     background-color: #a6c6e0;
   }
-
-
   .textoGrid {
     font-size: 8px;
   }
@@ -984,6 +1028,9 @@ footer {
   .formSupport {
     text-align: center;
   }
+  .containerCarousel{
+    display: none;
+  }
 }
 @media screen and (max-width: 320px) {
   #textoHeaderResponsive {
@@ -1035,5 +1082,8 @@ footer {
   }
   .imgSuplemento {
     width: 200px;
+  }
+  .containerCarousel{
+    display: none;
   }
 }
