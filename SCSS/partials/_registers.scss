@@ -1,0 +1,194 @@
+.containerRegistros {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .seccionRegistro {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 45px;
+  }
+  .bloqueSignIn {
+    text-decoration: none;
+    background-color: rgba(59, 100, 26, 0.429);
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    margin: 10px;
+    padding: 0px;
+    width: 40%;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .bloqueSignIn a {
+    text-align: center;
+    align-items: center;
+    float: unset;
+    display: block;
+    text-decoration: none;
+    padding: 5%;
+    margin: auto;
+    font-size: 100%;
+    width: 90%;
+    line-height: 35px;
+  }
+  .inicioSesion{
+    display: grid;
+  }
+  .formSignIn{
+    display: grid;
+  }
+  .signInButton{
+    background-color: rgb(255, 255, 255);
+    background: #ffffff;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 70;
+    line-height: 15px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border-style: solid;
+  } 
+  .signInButton:hover{
+    background-color: rgb(85, 216, 73);
+    transition: all 0.8s linear;
+    margin: auto;
+    color: #000000;
+    line-height: 18px;
+  } 
+  .botonFormReset{
+    background-color: rgb(255, 255, 255);
+    background: #ffffff;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 70;
+    line-height: 15px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border-style: solid;
+  } 
+  .botonFormReset:hover{
+  background-color: rgb(227, 68, 68);
+      transition: all 0.8s linear;
+      margin: auto;
+      color: #ffffff;
+      line-height: 18px;
+  } 
+  .botonFormRegister{
+    background-color: rgb(255, 255, 255);
+    background: #ffffff;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 70;
+    line-height: 15px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border-style: solid;
+  } 
+  .botonFormRegister:hover{
+      background-color: rgb(85, 216, 73);
+      transition: all 0.8s linear;
+      margin: auto;
+      color: #000000;
+      line-height: 18px;
+  } 
+  .signInRegister{
+    background-color: rgb(255, 255, 255);
+    background: #ffffff;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 70;
+    line-height: 15px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border-style: solid;
+    text-decoration: none;
+  }
+  .signInRegister:hover{
+    background-color: rgb(0, 0, 0);
+        transition: all 0.8s linear;
+        margin: auto;
+        color: #ffffff;
+        line-height: 18px;
+        text-decoration: none;
+    } 
+    .askSupport{
+      background: #808080;
+      border-radius: 999px;
+      box-shadow: #5E5DF0 0 10px 20px -10px;
+      box-sizing: border-box;
+      color: #ffffff;
+      cursor: pointer;
+      font-size: 15px;
+      font-weight: 70;
+      line-height: 15px;
+      opacity: 1;
+      outline: 0 solid transparent;
+      padding: 8px 18px;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      width: fit-content;
+      word-break: break-word;
+      border-style: solid;
+    } 
+    .askSupport:hover{
+      background: #ffffff;
+      transition: all 0.8s linear;
+      margin: auto;
+      color: #000000;
+      line-height: 18px;
+    }
+    

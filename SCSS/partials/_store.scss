@@ -1,0 +1,50 @@
+.imgSuplemento {
+    width: 400px;
+  }
+  .containerStore {
+    display: flex;
+    width: 95%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .storeSection {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding-bottom: 45px;
+  }
+  .storeSection h1{
+    padding: 1rem;
+    color: #5E5DF0;
+  }
+  .storeCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .card-container{
+    width: 20rem;
+    background-color: rgba(191, 28, 28, 0.364);
+    margin: 1rem;
+  }
+  .card img{
+    width: 45%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .stretched-link::after {
+    position: initial !important;
+  }
+  

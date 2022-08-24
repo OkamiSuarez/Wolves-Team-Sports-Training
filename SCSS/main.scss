@@ -1,0 +1,30 @@
+@import "./partials/header",
+"./partials/index",
+"./partials/trainingPrograms",
+"./partials/store",
+"./partials/blog",
+"./partials/registers",
+"./partials/payMethods",
+"./partials/footer",
+"./partials/responsive"
+;
+
+* {
+    font-family: "Noto Serif", serif;
+  }
+
+  body{
+    background-color: #a6c6e0  !important;
+    line-height: 20px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 0px;
+    position: relative;
+    padding-bottom: 45px;
+    padding-top: 0px;
+    min-height: 100vh;
+  }

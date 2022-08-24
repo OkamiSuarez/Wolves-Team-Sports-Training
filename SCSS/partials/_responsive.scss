@@ -1,0 +1,375 @@
+@media screen and (min-width: 1024px) {
+    /* .containerGridIzq {
+      grid-template-columns: 50% 45%;
+    }
+    .containerGridDer {
+      grid-template-columns: 100%;
+    } */
+    .blogText {
+      font-size: 20px;
+      line-height: 25px;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    #textoHeader {
+      font-size: 22px;
+    }
+    .containerGridIzq {
+      grid-template-columns: 50% 50%;
+    }
+    .containerGridDer {
+      grid-template-columns: 50% 50%;
+    }
+    .blogText {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+  @media screen and (max-width: 840px) {
+    #bloqueSign {
+      display: none;
+    }
+    #bloqueSignResponsive {
+      display: block;
+    }
+    #signInResponsive {
+      background-color: rgb(253, 253, 253);
+      color: rgb(255, 4, 4);
+      text-decoration: solid;
+    }
+    #textoHeader {
+      font-size: 18px;
+    }
+    .tituloBlog {
+      font-size: 20px;
+    }
+    .articuloBlog {
+      padding: 8px;
+      margin: 4px 4px 4px 4px;
+    }
+    .blogText {
+      font-size: 12px;
+      line-height: 24px;
+    }
+    table {
+      -webkit-border-horizontal-spacing: 25px;
+      -webkit-border-vertical-spacing: 25px;
+    }
+    .containerGridIzq {
+      grid-template-columns: 60% 40%;
+    }
+    .containerGridDer {
+      grid-template-columns: 60% 40%;
+    }
+    .containerCarousel{
+      max-width: 35rem;
+    }
+    
+  }
+  @media screen and (max-width: 768px) {
+    #textoHeader {
+      font-size: 15px;
+    }
+    #logoHeader {
+      width: 70px;
+      height: 70px;
+    }
+    .navegador ul li a {
+      font-size: 15px;
+      display: block;
+      padding: 10px 15px;
+      transition: all 0.3s linear;
+      border-radius: 20px;
+      line-height: 25px;
+    }
+    .textoGrid {
+      font-size: 11px;
+    }
+    .tituloBlog {
+      font-size: 24px;
+    }
+    .articuloBlog {
+      padding: 8px;
+      margin: 4px 4px 4px 4px;
+    }
+    .blogText {
+      font-size: 15px;
+      line-height: 24px;
+    }
+    .tituloBlog {
+      font-size: 21px;
+    }
+    .articuloBlog {
+      padding: 8px;
+      margin: 4px 4px 4px 4px;
+    }
+    table {
+      -webkit-border-horizontal-spacing: 20px;
+      -webkit-border-vertical-spacing: 20px;
+    }
+    .containerGridIzq {
+      grid-template-columns: 60% 40%;
+    }
+    .containerGridDer {
+      grid-template-columns: 60% 40%;
+    }
+    .containerCarousel{
+      max-width: 30rem;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .textoHeader {
+      display: none;
+    }
+    #textoHeaderResponsive {
+      display: block;
+    }
+    .navegador ul li a {
+      font-size: 13px;
+      display: block;
+      padding: 8px 10px;
+      transition: all 0.3s linear;
+      border-radius: 20px;
+      line-height: 20px;
+    }
+    #logoHeader {
+      width: 50px;
+      height: 50px;
+    }
+    .containerGridIzq {
+      grid-template-columns: 80%;
+    }
+    .containerGridDer {
+      grid-template-columns: 80%;
+    }
+    .footerResponsive {
+      display: none;
+    }
+    .textoGrid {
+      font-size: 10px;
+    }
+    .informacionGrid {
+      padding: 10px;
+      margin: 4px 4px 4px 4px;
+    }
+    .tituloBlog {
+      font-size: 20px;
+    }
+    .articuloBlog {
+      padding: 8px;
+      margin: 4px 4px 4px 4px;
+    }
+    .blogText {
+      font-size: 10px;
+      line-height: 24px;
+    }
+    .tablePrograms {
+      text-align: center;
+      background-color: #3b4fb846;
+    }
+    .thProgramsBasic {
+      font-size: 15px;
+      padding: 1px;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    .thProgramsIntermediate {
+      font-size: 15px;
+      padding: 1px;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    .thProgramsAdvanced {
+      font-size: 15px;
+      padding: 1px;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    table {
+      -webkit-border-horizontal-spacing: 15px;
+      -webkit-border-vertical-spacing: 15px;
+    }
+    .containerCarousel{
+      max-width: 20rem;
+    }
+    .carouselText0{
+      background-color: rgb(255, 255, 255) ;
+      border-radius: 1rem;
+      opacity: 0.7;
+    }
+    .carouselText0 h5{
+      color: #000;
+    }
+    .carouselText0 p{
+      color: #000;
+    }
+    .carouselText{
+      background-color: rgb(255, 255, 255) ;
+      border-radius: 1rem;
+      opacity: 0.7;
+    }
+    .carouselText h5{
+      color: #000;
+      font-size: 1rem;
+    }
+    .carouselText p{
+      color: #000;
+      font-size:0.8rem;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    #textoHeaderResponsive {
+      font-size: 22px;
+    }
+  .navegador{
+      z-index: -1;
+      top: 100vh;
+      transition: .5s;
+  }
+    .navegador ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      line-height: 10px;
+    }
+    .navegador ul li a {
+      font-size: 10px;
+      display: block;
+      padding: 2px 10px;
+      transition: all 0.3s linear;
+      border-radius: 0px;
+      line-height: 20px;
+    }
+    .toggle{
+      display: inline-block;
+    }
+    .active{
+      top: 80px;
+      /* background-color: #000; */
+      z-index: 1;
+    }
+    .navegador ul li a:hover {
+      background-color: #a6c6e0;
+    }
+    .textoGrid {
+      font-size: 8px;
+    }
+    .informacionGrid {
+      padding: 8px;
+      margin: 4px 4px 4px 4px;
+    }
+    .tituloBlog {
+      font-size: 20px;
+    }
+    .articuloBlog {
+      padding: 8px;
+      margin: 4px 4px 4px 4px;
+    }
+    .blogText {
+      font-size: 9px;
+    }
+    .tablePrograms {
+      text-align: center;
+      background-color: #3b4fb846;
+    }
+    .thProgramsBasic {
+      font-size: 12px;
+      padding: 1px;
+      padding-left: 2px;
+      padding-right: 2px;
+    }
+    .thProgramsIntermediate {
+      font-size: 12px;
+      padding: 1px;
+      padding-left: 2px;
+      padding-right: 2px;
+    }
+    .thProgramsAdvanced {
+      font-size: 12px;
+      padding: 1px;
+      padding-left: 2px;
+      padding-right: 2px;
+    }
+    table {
+      -webkit-border-horizontal-spacing: 10px;
+      -webkit-border-vertical-spacing: 10px;
+    }
+    .formRegister {
+      text-align: center;
+      font-size: 16px;
+    }
+    .formSignIn {
+      text-align: center;
+    }
+    .imgSuplemento {
+      width: 280px;
+    }
+    .formSupport {
+      text-align: center;
+    }
+    .containerCarousel{
+      display: none;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    #textoHeaderResponsive {
+      font-size: 15px;
+    }
+    i {
+      font-size: 15px;
+      padding-left: 2px;
+      margin-left: 2px;
+    }
+    .footerSupport {
+      border-radius: 90px;
+      font-size: 15px;
+      width: 60px;
+    }
+    .footerSupport a {
+      padding: 1px;
+    }
+    .footerLinks {
+      padding: 0.5px;
+      margin-left: 3px;
+      margin-right: 1px;
+    }
+    .tituloBlog {
+      font-size: 18px;
+    }
+    .articuloBlog {
+      padding: 6px;
+      margin: 4px 4px 4px 4px;
+    }
+    .blogText {
+      font-size: 9px;
+    }
+    .containerProgramas h1 {
+      font-size: 20px;
+    }
+    .containerRegistros h1 {
+      font-size: 20px;
+    }
+    .formSupport {
+      text-align: center;
+    }
+    .formRegister {
+      text-align: center;
+      font-size: 12px;
+    }
+    .formSignIn {
+      text-align: center;
+    }
+    .imgSuplemento {
+      width: 200px;
+    }
+    .containerCarousel{
+      display: none;
+    }
+  }
+  

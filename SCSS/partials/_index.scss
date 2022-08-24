@@ -1,0 +1,91 @@
+main {
+    display: flex;
+  }
+  .containerCarousel{
+    display: flex;
+    margin: 1rem;
+    max-width: 40rem;
+  }
+  .carouselText{
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 1rem;
+    opacity: 0.7;
+  }
+  .carouselText h5{
+    color: #000;
+  }
+  .carouselText p{
+    color: #000;
+  }
+  .carouselText2{
+    background-color: rgb(0, 0, 0) ;
+    border-radius: 1rem;
+    opacity: 0.85;
+  }
+  .carouselText2 h5{
+    color: rgb(255, 255, 255);
+  }
+  .carouselText2 p{
+    color: rgb(255, 255, 255);
+  }
+  .carouselText3{
+    background-color: rgb(14, 2, 2) ;
+    border-radius: 1rem;
+    opacity: 0.85;
+  }
+  .carouselText3 h5{
+    color: rgb(255, 0, 0);
+  }
+  .carouselText3 p{
+    color: rgb(255, 0, 0);
+  }
+  .gridIndex {
+    display: grid;
+    justify-items: center;
+  }
+  .containerGridIzq {
+    display: grid;
+    padding: 2%;
+    grid-template-columns: 60% 30%;
+    grid-column-gap: 20px;
+    align-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 30px;
+  }
+  .containerGridDer {
+    display: grid;
+    padding: 2%;
+    grid-template-columns: 20% 50%;
+    grid-column-gap: 20px;
+    align-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 30px;
+  }
+  .informacionGrid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: #7082c1;
+    border-radius: 40px;
+    padding: 25px;
+    text-align: justify;
+    margin: auto;
+  }
+  .textoGrid{
+    padding: 0.5rem;
+  }
+  .imgGrid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    margin: 5px 5px 5px 5px;
+  }
+  
