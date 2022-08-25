@@ -1,10 +1,10 @@
 @media screen and (min-width: 1024px) {
-    /* .containerGridIzq {
+    .containerGridIzq {
       grid-template-columns: 50% 45%;
     }
     .containerGridDer {
       grid-template-columns: 100%;
-    } */
+    } 
     .blogText {
       font-size: 20px;
       line-height: 25px;
@@ -34,7 +34,7 @@
     }
     #signInResponsive {
       background-color: rgb(253, 253, 253);
-      color: rgb(255, 4, 4);
+      color: #000;
       text-decoration: solid;
     }
     #textoHeader {
@@ -116,7 +116,38 @@
     .containerCarousel{
       max-width: 30rem;
     }
-  }
+    .containerPayMethod{
+      padding: 1rem;
+      width: 80%;
+      .containerTextPay{
+            h1{
+                font-size: 3rem;
+            }
+            h4{
+                font-size: 2rem;
+            }
+    }
+      .seccionRegistro{
+        padding: 1rem;
+        form{
+          div{
+            .form-label{
+              font-size: 3rem;
+            }
+            input{
+              font-size: 2rem;
+            }
+            select{
+              font-size: 2rem;
+            }
+            button{
+              font-size: 2rem;
+            }
+          }
+        }
+      }   
+    }
+}
   @media screen and (max-width: 600px) {
     .textoHeader {
       display: none;
@@ -216,7 +247,38 @@
       color: #000;
       font-size:0.8rem;
     }
-  }
+    .containerPayMethod{
+      padding: 0.5rem;
+      width: 80%;
+      .containerTextPay{
+            h1{
+                font-size: 2.5rem;
+            }
+            h4{
+                font-size: 1.5rem;
+            }
+    }
+      .seccionRegistro{
+        padding: 1rem;
+        form{
+          div{
+            .form-label{
+              font-size: 2.5rem;
+            }
+            input{
+              font-size: 1.5rem;
+            }
+            select{
+              font-size: 1.5rem;
+            }
+            button{
+              font-size: 1.5rem;
+            }
+          }
+        }
+      }   
+    }
+}
   @media screen and (max-width: 480px) {
     #textoHeaderResponsive {
       font-size: 22px;
@@ -316,7 +378,50 @@
     .containerCarousel{
       display: none;
     }
-  }
+    .containerPayMethod{
+      padding: 0.5rem;
+      width: 80%;
+      .containerTextPay{
+            h1{
+                font-size: 2rem;
+            }
+            h4{
+                font-size: 1rem;
+            }
+    }
+      .seccionRegistro{
+        padding: 1rem;
+        form{
+          div{
+            .form-label{
+              font-size: 2rem;
+            }
+            input{
+              font-size: 1rem;
+            }
+            select{
+              font-size: 1rem;
+            }
+            button{
+              font-size: 1rem;
+            }
+          }
+        }
+      }   
+    }
+    .containerSignIn {
+      h1{
+        font-size: 1.7rem;
+      }
+      .formSignIn{
+        div{
+          label{
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+}
   @media screen and (max-width: 320px) {
     #textoHeaderResponsive {
       font-size: 15px;
@@ -371,5 +476,36 @@
     .containerCarousel{
       display: none;
     }
-  }
+    .containerPayMethod{
+      padding: 0.5rem;
+      width: 80%;
+      .containerTextPay{
+            h1{
+                font-size: 2rem;
+            }
+            h4{
+                font-size: 1rem;
+            }
+    }
+      .seccionRegistro{
+        padding: 0.5rem;
+        form{
+          div{
+            .form-label{
+              font-size: 2rem;
+            }
+            input{
+              font-size: 1rem;
+            }
+            select{
+              font-size: 1rem;
+            }
+            button{
+              font-size: 1rem;
+            }
+          }
+        }
+      }   
+    }
+}
   

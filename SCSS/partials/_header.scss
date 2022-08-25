@@ -5,60 +5,103 @@
   top: 0%;
   position: relative;
   width: 100%;
-}
-.topContainer {
-  width: 98%;
-  max-width: 100%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1px 0px;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  .topContainer {
+    width: 98%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 0px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    #logoHeader {
+      border-radius: 90px;
+      width: 90px;
+      height: 90px;
+    }
+    .textoHeader {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-around;
+      justify-content: center;
+      align-items: center;
+      width: 23%;
+      #textoHeader {
+        line-height: 40px;
+        font-size: 30px;
+        padding-left: 0px;
+        text-align: center;
+        text-decoration: none;
+        color: #000;
+      }
+    }
+    #textoHeaderResponsive {
+      line-height: 20px;
+      font-size: 30px;
+      padding-left: 0px;
+      text-align: center;
+      text-decoration: none;
+      color: #000;
+      display: none;
+    }
+    .navegador {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: flex-end;
+      justify-content: flex-end;
+      align-items: center;
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        line-height: 30px;
+        li{
+          display: inline-block;
+          .enlacesHeader {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+          }
+          a{
+            font-size: 20px;
+            display: block;
+            padding: 1px 15px;
+            transition: all 0.3s linear;
+            border-radius: 20px;
+            line-height: 30px;
+            &:hover{
+              background: rgba(0, 0, 0, 0), 255;
+              color: #000000;
+            }
+          }
+        }
+        #bloqueSign {
+          text-align: center;
+          background-color: #ffffff;
+          border-radius: 20px;
+          padding: 1px 7px 5px 8px;
+          font-size: 15px;
+          #signIn {
+            color: rgb(54, 85, 200);
+            text-decoration: none;
+            margin: 2px;
+            font-size: 20px;
+            border: dotted rgb(50, 50, 50);
+          }
+        }
+      }
+    }
+  }
 }
 #bloqueSignResponsive {
   display: none;
-}
-.navegador {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: flex-end;
-  justify-content: flex-end;
-  align-items: center;
-}
-.navegador ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  line-height: 30px;
-}
-.navegador ul li {
-  display: inline-block;
-}
-.navegador ul li a {
-  font-size: 20px;
-  display: block;
-  padding: 1px 15px;
-  transition: all 0.3s linear;
-  border-radius: 20px;
-  line-height: 30px;
-}
-.navegador ul li a:hover {
-  background: rgba(0, 0, 0, 0), 255;
-  /* font-size: 20px; */
-  color: #000000;
-}
-.enlacesHeader {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
 }
 .toggle {
   color: #ffffff;
@@ -71,48 +114,4 @@
 }
 .rotate {
   transform: rotate(180deg);
-}
-#bloqueSign {
-  text-align: center;
-  background-color: #ffffff;
-  border-radius: 20px;
-  padding: 1px 7px 5px 8px;
-  font-size: 15px;
-}
-#signIn {
-  color: rgb(54, 85, 200);
-  text-decoration: none;
-  margin: 2px;
-  font-size: 20px;
-  border: dotted rgb(50, 50, 50);
-}
-.textoHeader {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-around;
-  justify-content: center;
-  align-items: center;
-  width: 23%;
-}
-#textoHeader {
-  line-height: 40px;
-  font-size: 30px;
-  padding-left: 0px;
-  text-align: center;
-  text-decoration: none;
-  color: #000;
-}
-#textoHeaderResponsive {
-  line-height: 20px;
-  font-size: 30px;
-  padding-left: 0px;
-  text-align: center;
-  text-decoration: none;
-  color: #000;
-  display: none;
-}
-#logoHeader {
-  border-radius: 90px;
-  width: 90px;
-  height: 90px;
 }

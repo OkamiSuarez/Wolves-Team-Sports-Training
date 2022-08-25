@@ -1,0 +1,44 @@
+.containerPayMethod{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 85%;
+    align-self: center;
+    .containerTextPay{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1rem;
+        text-align: center;
+            h1{
+                font-size: 3.5rem;
+            }
+            h4{
+                font-size: 2.5rem;
+            }
+    }
+    .seccionRegistro{
+        padding: 1rem;
+        form{
+            display: flex;
+            justify-content: center;
+            div{
+                text-align: center;
+                .form-label{
+                    font-size: 1.2rem;
+                }
+                input{
+                    text-align: center;
+                }
+                select{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

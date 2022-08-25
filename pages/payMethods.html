@@ -68,8 +68,10 @@
 
     <!-- Form Registro -->
     <main class="containerPayMethod">
-        <h1>Payment</h1>
-        <h4>User : simpson.homer@hotmail.com</h4>
+        <section class="containerTextPay">
+            <h1>Payment</h1>
+            <h4>simpson.homer@hotmail.com</h4>    
+        </section>
         <section class="seccionRegistro">
             <form class="row g-3">
                 <div class="col-md-6">
@@ -145,6 +147,8 @@
 <script>
     function buyProduct(){
         alert(`Thanks for your purchase, your package has been sent`)
+        location.href = "../index.html"
+
     }
 </script>
 

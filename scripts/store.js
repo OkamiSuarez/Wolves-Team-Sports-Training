@@ -24,7 +24,8 @@ products.forEach((product) => {
 });
 
 function buyProduct() {
-  alert("On future we will work on this part");
+  alert("You'll be redirected to your cart");
+  location.href = "../pages/payMethods.html"
 }
 
 // // Este es el encargado de renderizar las cards para poder comprar
