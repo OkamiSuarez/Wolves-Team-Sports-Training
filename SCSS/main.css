@@ -392,7 +392,7 @@
 }
 .containerSignIn .formSignIn button {
   margin-top: 0.6rem;
-  width: 70%;
+  width: 100px;
   align-items: center;
 }
 .containerSignIn .signInRegister {
@@ -416,13 +416,14 @@
   flex-direction: column;
   align-content: center;
   align-items: center;
+  margin-bottom: 2rem;
 }
 .containerRegister h1 {
   padding-top: 1rem;
 }
 .containerRegister .seccionRegistro {
   padding-top: 2rem;
-  width: 90%;
+  width: 65%;
 }
 .containerRegister .seccionRegistro .formRegister {
   text-align: center;
@@ -499,6 +500,7 @@
   align-content: center;
   align-items: center;
   width: 95%;
+  margin-bottom: 2rem;
 }
 .containerSupport h1 {
   padding: 1rem;
