@@ -8,6 +8,7 @@ const products = [
         img: "../imgs/store/wheyProtein.png",
         description : "Enhances muscle production, also helps on trainment recovery",
         video : "https://www.youtube.com/watch?v=Vie8HUL8ivE",
+        alt : "Protein",
     },
 
     {
@@ -19,6 +20,7 @@ const products = [
         price : 500,
         description : "Promotes recovery through the ussage of Leucine, Isoleucine and Valine",
         video : "https://www.youtube.com/watch?v=SDRypbKUFaQ",
+        alt : "BCAAS",
     },
     {
         id : 3,
@@ -29,6 +31,7 @@ const products = [
         price :  450,
         description : "Increases endurance, boosts recovery and some cognitive process.",
         video : "https://www.youtube.com/watch?v=1vM_9FCtbvA",
+        alt : "Creatine",
     },
     {
         id : 4,
@@ -39,6 +42,7 @@ const products = [
         price : 300,
         description : "Increases your powersourse, promotes fat burn, slow down fatigue and helps with attention.",
         video : "https://www.youtube.com/watch?v=q7mWQnGQ7Vo",
+        alt : "Caffeine",
     },
     {
         id : 5,
@@ -49,6 +53,7 @@ const products = [
         price : 550,
         description : "Promotes recovery with the Essential Amino Acids Leucine, Isoleucine, Valine, Histidine, Lysine, Methionine, Phenylalanine, Threonine, and Tryptophan.",
         video : "https://www.youtube.com/watch?v=XAKl218QlKM",
+        alt : "EAAS",
     },
     {
         id : 6,
@@ -59,6 +64,7 @@ const products = [
         price : 1500,
         description : "Includes protein, creatine and caffeine, ideal for accelerating musle creation helping with more intense exercise and improving endurance.",
         video : "https://www.youtube.com/watch?v=TK3wf-LjDG8",
+        alt : "ProteinCreatineAndCaffeine",
     },
     {
         id : 7,
@@ -69,6 +75,7 @@ const products = [
         price : 1100,
         description : "Includes creatine, BCAAS and caffeine, helps in the search of more endurande and accelerated recovery.",
         video : "https://www.youtube.com/watch?v=yCFmBdK0VHg",
+        alt : "creatineBCAASAndCaffeine",
     },
     {
         id : 8,
@@ -79,5 +86,6 @@ const products = [
         price : 2000,
         description : "Includes protein, creatine, caffeine and EAAS, the perfect match for double trainings or with more frecuencies.",
         video : "https://www.youtube.com/watch?v=NwqUwzCyuR0",
+        alt : "proteinCreatineCaffeineAndEAAS",
     }
 ];

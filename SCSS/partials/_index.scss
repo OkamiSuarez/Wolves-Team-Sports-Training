@@ -3,8 +3,12 @@
   justify-items: center;
   .containerCarousel{
     display: flex;
-    margin: 1rem;
-    max-width: 40rem;
+    margin: 0.5rem;
+    max-width: 28rem;
+    .imgCarousel{
+      width: 100%;
+      height: 45vh;
+    }
     .carouselText{
       background-color: rgb(255, 255, 255) ;
       border-radius: 1rem;
@@ -43,17 +47,16 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    margin: 5rem;
     .containerFlexLeft{
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
       align-items: center;
-      padding: 2rem;
+      padding: 1rem;
       justify-content: space-around;
       border: solid;
       background-color: rgb(202, 222, 227);
-      margin: 2rem;
+      margin: 1rem;
     }
     .containerFlexRight{
       display: flex;

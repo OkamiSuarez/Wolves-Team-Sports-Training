@@ -1,5 +1,5 @@
 .header {
-  background-color: #7082c1;
+  background-color: rgba(122, 150, 250, 0.5647058824);
   padding-top: 3px;
   display: flex;
   top: 0%;
@@ -18,6 +18,7 @@
   flex-wrap: nowrap;
 }
 .header .topContainer #logoHeader {
+  margin: 0.5rem;
   border-radius: 90px;
   width: 90px;
   height: 90px;
@@ -31,6 +32,7 @@
   width: 23%;
 }
 .header .topContainer .textoHeader #textoHeader {
+  margin: 0.2rem;
   line-height: 40px;
   font-size: 30px;
   padding-left: 0px;
@@ -46,6 +48,7 @@
   text-decoration: none;
   color: #000;
   display: none;
+  margin: 0.5rem;
 }
 .header .topContainer .navegador {
   display: flex;
@@ -87,6 +90,7 @@
   color: #000000;
 }
 .header .topContainer .navegador ul #bloqueSign {
+  margin: 0.5rem;
   text-align: center;
   background-color: #ffffff;
   border-radius: 20px;
@@ -125,8 +129,12 @@
 }
 .gridIndex .containerCarousel {
   display: flex;
-  margin: 1rem;
-  max-width: 40rem;
+  margin: 0.5rem;
+  max-width: 28rem;
+}
+.gridIndex .containerCarousel .imgCarousel {
+  width: 100%;
+  height: 45vh;
 }
 .gridIndex .containerCarousel .carouselText {
   background-color: rgb(255, 255, 255);
@@ -165,18 +173,17 @@
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  margin: 5rem;
 }
 .gridIndex .containerInfoIndex .containerFlexLeft {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  padding: 2rem;
+  padding: 1rem;
   justify-content: space-around;
   border: solid;
   background-color: rgb(202, 222, 227);
-  margin: 2rem;
+  margin: 1rem;
 }
 .gridIndex .containerInfoIndex .containerFlexRight {
   display: flex;
@@ -252,7 +259,7 @@
 
 .containerStore {
   display: flex;
-  width: 95%;
+  width: 98%;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
@@ -267,7 +274,7 @@
   align-content: center;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 100%;
   padding-bottom: 45px;
 }
 .containerStore .storeSection h1 {
@@ -285,17 +292,32 @@
 }
 .containerStore .storeSection .storeCards .card-container {
   width: 400px;
-  height: 550px;
+  height: 600px;
   margin: 0.5rem;
 }
+.containerStore .storeSection .storeCards .card-container .card-body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.containerStore .storeSection .storeCards .card-container .card {
+  height: 100% !important;
+}
 .containerStore .storeSection .storeCards .card-container text-center {
-  width: 100%;
   height: 100%;
 }
 .containerStore .storeSection .storeCards .card-container img {
-  width: 150px;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  width: 170px;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+.containerStore .storeSection .storeCards .card-container a {
+  font-size: 1.5rem;
+  text-decoration: overline;
+  color: green;
 }
 
 .tituloBlog {
@@ -614,9 +636,10 @@ footer .footerContainer .footerSupport {
   background-color: #ffffff;
   color: #000;
   border-radius: 90px;
-  padding: 4px;
+  padding: 1px;
   font-size: 20px;
-  width: 92px;
+  width: 6rem;
+  margin: 0.5rem;
   flex-wrap: nowrap;
   flex-direction: column;
   align-content: flex-end;
@@ -626,35 +649,9 @@ footer .footerContainer .footerSupport {
 footer .footerContainer .footerSupport a {
   padding: 10px;
   text-decoration: none;
+  color: #000;
 }
 
-@media screen and (min-width: 1024px) {
-  .containerGridIzq {
-    grid-template-columns: 50% 45%;
-  }
-  .containerGridDer {
-    grid-template-columns: 100%;
-  }
-  .blogText {
-    font-size: 20px;
-    line-height: 25px;
-  }
-}
-@media screen and (max-width: 1024px) {
-  #textoHeader {
-    font-size: 22px;
-  }
-  .containerGridIzq {
-    grid-template-columns: 50% 50%;
-  }
-  .containerGridDer {
-    grid-template-columns: 50% 50%;
-  }
-  .blogText {
-    font-size: 16px;
-    line-height: 22px;
-  }
-}
 @media screen and (max-width: 840px) {
   #bloqueSign {
     display: none;
@@ -662,7 +659,7 @@ footer .footerContainer .footerSupport a {
   #bloqueSignResponsive {
     display: block;
   }
-  #signInResponsive {
+  #bloqueSignResponsive #signInResponsive {
     background-color: rgb(253, 253, 253);
     color: #000;
     -webkit-text-decoration: solid;
@@ -671,6 +668,38 @@ footer .footerContainer .footerSupport a {
   #textoHeader {
     font-size: 18px;
   }
+  .containerCarousel {
+    max-width: 35rem;
+  }
+  .gridIndex .containerInfoIndex {
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  .gridIndex .containerInfoIndex .containerFlexLeft {
+    padding: 0.5rem;
+    margin: 0.5rem;
+  }
+  .gridIndex .containerInfoIndex .containerFlexRight {
+    padding: 0.5rem;
+    margin: 0.5rem;
+  }
+  .gridIndex .containerInfoIndex .informationFlex {
+    padding: 0.5rem;
+  }
+  .gridIndex .containerInfoIndex .informationFlex .flexText {
+    font-size: 1.2rem;
+  }
+  .gridIndex .containerInfoIndex .imgFlex {
+    width: 45%;
+  }
+  .gridIndex .containerInfoIndex .imgFlex .imgRight {
+    height: 100%;
+    width: 100%;
+  }
+  .gridIndex .containerInfoIndex .imgFlex .imgLeft {
+    height: 100%;
+    width: 100%;
+  }
   .tituloBlog {
     font-size: 20px;
   }
@@ -678,22 +707,9 @@ footer .footerContainer .footerSupport a {
     padding: 8px;
     margin: 4px 4px 4px 4px;
   }
-  .blogText {
-    font-size: 12px;
-    line-height: 24px;
-  }
   table {
     -webkit-border-horizontal-spacing: 25px;
     -webkit-border-vertical-spacing: 25px;
-  }
-  .containerGridIzq {
-    grid-template-columns: 60% 40%;
-  }
-  .containerGridDer {
-    grid-template-columns: 60% 40%;
-  }
-  .containerCarousel {
-    max-width: 35rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -711,9 +727,6 @@ footer .footerContainer .footerSupport a {
     transition: all 0.3s linear;
     border-radius: 20px;
     line-height: 25px;
-  }
-  .textoGrid {
-    font-size: 11px;
   }
   .tituloBlog {
     font-size: 24px;
@@ -736,12 +749,6 @@ footer .footerContainer .footerSupport a {
   table {
     -webkit-border-horizontal-spacing: 20px;
     -webkit-border-vertical-spacing: 20px;
-  }
-  .containerGridIzq {
-    grid-template-columns: 60% 40%;
-  }
-  .containerGridDer {
-    grid-template-columns: 60% 40%;
   }
   .containerCarousel {
     max-width: 30rem;
@@ -774,10 +781,10 @@ footer .footerContainer .footerSupport a {
 }
 @media screen and (max-width: 600px) {
   .textoHeader {
-    display: none;
+    display: none !important;
   }
   #textoHeaderResponsive {
-    display: block;
+    display: block !important;
   }
   .navegador ul li a {
     font-size: 13px;
@@ -791,21 +798,42 @@ footer .footerContainer .footerSupport a {
     width: 50px;
     height: 50px;
   }
-  .containerGridIzq {
-    grid-template-columns: 80%;
-  }
-  .containerGridDer {
-    grid-template-columns: 80%;
-  }
   .footerResponsive {
     display: none;
   }
-  .textoGrid {
-    font-size: 10px;
+  .gridIndex .containerInfoIndex {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
   }
-  .informacionGrid {
-    padding: 10px;
-    margin: 4px 4px 4px 4px;
+  .gridIndex .containerInfoIndex .containerFlexLeft {
+    display: flex;
+    flex-direction: column;
+  }
+  .gridIndex .containerInfoIndex .containerFlexRight {
+    display: flex;
+    flex-direction: column;
+  }
+  .gridIndex .containerInfoIndex .informationFlex {
+    padding: 1rem;
+    width: 100%;
+    text-align: justify;
+  }
+  .gridIndex .containerInfoIndex .informationFlex .flexText {
+    font-size: 1.2rem;
+  }
+  .gridIndex .containerInfoIndex .imgFlex {
+    width: 60%;
+  }
+  .gridIndex .containerInfoIndex .imgFlex .imgRight {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 0.5rem;
+  }
+  .gridIndex .containerInfoIndex .imgFlex .imgLeft {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 0.5rem;
   }
   .tituloBlog {
     font-size: 20px;
@@ -817,28 +845,6 @@ footer .footerContainer .footerSupport a {
   .blogText {
     font-size: 10px;
     line-height: 24px;
-  }
-  .tablePrograms {
-    text-align: center;
-    background-color: rgba(59, 79, 184, 0.2745098039);
-  }
-  .thProgramsBasic {
-    font-size: 15px;
-    padding: 1px;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  .thProgramsIntermediate {
-    font-size: 15px;
-    padding: 1px;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  .thProgramsAdvanced {
-    font-size: 15px;
-    padding: 1px;
-    padding-left: 5px;
-    padding-right: 5px;
   }
   table {
     -webkit-border-horizontal-spacing: 15px;
@@ -898,51 +904,44 @@ footer .footerContainer .footerSupport a {
   }
 }
 @media screen and (max-width: 480px) {
-  #textoHeaderResponsive {
-    font-size: 22px;
+  .containerCarousel {
+    display: none !important;
+  }
+  .topContainer {
+    align-items: center !important;
+    flex-direction: column !important;
   }
   .navegador {
-    z-index: -1;
-    top: 100vh;
-    transition: 0.5s;
+    margin: 0.5rem;
   }
   .navegador ul {
-    margin: 0;
-    padding: 0;
+    margin: 1rem;
+    padding: 10px;
     list-style: none;
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    line-height: 10px;
+    justify-content: space-evenly !important;
   }
   .navegador ul li a {
-    font-size: 10px;
-    display: block;
+    font-size: 1.5rem !important;
     padding: 2px 10px;
-    transition: all 0.3s linear;
     border-radius: 0px;
-    line-height: 20px;
-  }
-  .toggle {
-    display: inline-block;
-  }
-  .active {
-    top: 80px;
-    /* background-color: #000; */
-    z-index: 1;
+    line-height: 4rem !important;
   }
   .navegador ul li a:hover {
     background-color: #a6c6e0;
   }
-  .textoGrid {
-    font-size: 8px;
+  .gridIndex .containerInfoIndex {
+    padding: 0.5rem;
   }
-  .informacionGrid {
-    padding: 8px;
-    margin: 4px 4px 4px 4px;
+  .gridIndex .containerInfoIndex .informationFlex {
+    padding: 0.5rem;
+  }
+  .gridIndex .containerInfoIndex .informationFlex .flexText {
+    font-size: 1rem;
   }
   .tituloBlog {
     font-size: 20px;
@@ -954,47 +953,9 @@ footer .footerContainer .footerSupport a {
   .blogText {
     font-size: 9px;
   }
-  .tablePrograms {
-    text-align: center;
-    background-color: rgba(59, 79, 184, 0.2745098039);
-  }
-  .thProgramsBasic {
-    font-size: 12px;
-    padding: 1px;
-    padding-left: 2px;
-    padding-right: 2px;
-  }
-  .thProgramsIntermediate {
-    font-size: 12px;
-    padding: 1px;
-    padding-left: 2px;
-    padding-right: 2px;
-  }
-  .thProgramsAdvanced {
-    font-size: 12px;
-    padding: 1px;
-    padding-left: 2px;
-    padding-right: 2px;
-  }
   table {
     -webkit-border-horizontal-spacing: 10px;
     -webkit-border-vertical-spacing: 10px;
-  }
-  .formRegister {
-    text-align: center;
-    font-size: 16px;
-  }
-  .formSignIn {
-    text-align: center;
-  }
-  .imgSuplemento {
-    width: 280px;
-  }
-  .formSupport {
-    text-align: center;
-  }
-  .containerCarousel {
-    display: none;
   }
   .containerPayMethod {
     padding: 0.5rem;
@@ -1029,8 +990,11 @@ footer .footerContainer .footerSupport a {
   }
 }
 @media screen and (max-width: 320px) {
-  #textoHeaderResponsive {
-    font-size: 15px;
+  .navegador ul li a {
+    font-size: 1.2rem !important;
+  }
+  .navegador ul li a:hover {
+    background-color: #a6c6e0;
   }
   i {
     font-size: 15px;
@@ -1066,19 +1030,6 @@ footer .footerContainer .footerSupport a {
   .containerRegistros h1 {
     font-size: 20px;
   }
-  .formSupport {
-    text-align: center;
-  }
-  .formRegister {
-    text-align: center;
-    font-size: 12px;
-  }
-  .formSignIn {
-    text-align: center;
-  }
-  .imgSuplemento {
-    width: 200px;
-  }
   .containerCarousel {
     display: none;
   }
@@ -1113,7 +1064,7 @@ footer .footerContainer .footerSupport a {
 }
 
 body {
-  background-color: #a6c6e0 !important;
+  background-color: rgba(114, 176, 227, 0.4274509804) !important;
   line-height: 20px;
   margin: 0px;
   display: flex;

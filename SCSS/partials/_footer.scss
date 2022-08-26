@@ -35,9 +35,10 @@ footer {
       background-color: #ffffff;
       color: #000;
       border-radius: 90px;
-      padding: 4px;
+      padding: 1px;
       font-size: 20px;
-      width: 92px;
+      width: 6rem;
+      margin: 0.5rem;
       flex-wrap: nowrap;
       flex-direction: column;
       align-content: flex-end;
@@ -46,6 +47,7 @@ footer {
       a {
         padding: 10px;
         text-decoration: none;
+        color: #000;
       }
     }
   }

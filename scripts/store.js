@@ -10,11 +10,11 @@ products.forEach((product) => {
             <h2 class="card-title">${product.name}</h5>
         </div>
           <div class="card-body">
-              <img src="${product.img}" class="card-img-top" alt="...">
+              <img src="${product.img}" class="card-img-top" alt="${product.alt}">
               <h3 class="card-text">Price: ${product.price}</h3>
               <h5 class="card-text">Brand: ${product.brand}</h5>
               <p class="card-text">Description: ${product.description}</p>
-              <a href="${product.video}" target="blank" class="text-info stretched-link" id="esParaTi">Is this product for me?</a>
+              <a href="${product.video}" target="blank" class="buttonForYou" id="esParaTi">Is this product for me?</a>
           </div>
         <div class="card-footer">
             <button type="button" class="btn btn-success" onclick="buyProduct(${product.id})" id="botonDeCompra${product.id}">Buy now</button>

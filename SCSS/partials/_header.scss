@@ -1,5 +1,5 @@
 .header {
-  background-color: #7082c1;
+  background-color: #7a96fa90;
   padding-top: 3px;
   display: flex;
   top: 0%;
@@ -16,6 +16,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     #logoHeader {
+      margin:0.5rem;
       border-radius: 90px;
       width: 90px;
       height: 90px;
@@ -28,6 +29,7 @@
       align-items: center;
       width: 23%;
       #textoHeader {
+        margin:0.2rem;
         line-height: 40px;
         font-size: 30px;
         padding-left: 0px;
@@ -44,6 +46,7 @@
       text-decoration: none;
       color: #000;
       display: none;
+      margin:0.5rem;
     }
     .navegador {
       display: flex;
@@ -83,6 +86,7 @@
           }
         }
         #bloqueSign {
+          margin:0.5rem;
           text-align: center;
           background-color: #ffffff;
           border-radius: 20px;
