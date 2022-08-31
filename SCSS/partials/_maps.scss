@@ -1,0 +1,9 @@
+$buttons: (
+    colorSuccess: rgb(85, 216, 73),
+    colorDanger: rgb(227, 68, 68),
+    colorBackground: white,
+);
+
+button{
+    background-color: map-get($buttons, "colorSuccess");
+}

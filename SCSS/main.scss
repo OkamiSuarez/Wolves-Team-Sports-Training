@@ -1,4 +1,6 @@
 @import "./partials/header",
+"./partials/mixins",
+"./partials/maps",
 "./partials/index",
 "./partials/trainingPrograms",
 "./partials/store",
@@ -6,7 +8,8 @@
 "./partials/registers",
 "./partials/payMethods",
 "./partials/footer",
-"./partials/responsive"
+"./partials/responsive",
+"./partials/extends"
 ;
 
 * {
@@ -14,17 +17,6 @@
   }
 
   body{
-    background-color: #72b0e36d  !important;
-    line-height: 20px;
-    margin: 0px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: flex-start;
-    padding: 0px;
-    position: relative;
-    padding-bottom: 45px;
-    padding-top: 0px;
-    min-height: 100vh;
+    background-color: #72b0e36d !important;
+    @extend %bodyAdjustment;
   }

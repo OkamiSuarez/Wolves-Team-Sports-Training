@@ -1,0 +1,6 @@
+@mixin hoverButton($color){
+    background-color: $color;
+    transition: all 0.8s linear;
+    margin: auto;
+    color: #000000;
+}

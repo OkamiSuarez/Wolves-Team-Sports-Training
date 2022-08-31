@@ -123,6 +123,10 @@
   transform: rotate(180deg);
 }
 
+button {
+  background-color: rgb(85, 216, 73);
+}
+
 .gridIndex {
   display: grid;
   justify-items: center;
@@ -407,8 +411,10 @@
 }
 .containerSignIn .signInRegister:hover {
   background-color: rgb(85, 216, 73);
-  transition: all 0.8s;
+  transition: all 0.8s linear;
+  margin: auto;
   color: #000000;
+  margin-top: 1rem;
 }
 
 .containerRegister {
@@ -457,8 +463,7 @@
   background-color: rgb(227, 68, 68);
   transition: all 0.8s linear;
   margin: auto;
-  color: #ffffff;
-  line-height: 18px;
+  color: #000000;
 }
 .containerRegister .seccionRegistro .botonFormRegister {
   background-color: rgb(255, 255, 255);
@@ -490,7 +495,6 @@
   transition: all 0.8s linear;
   margin: auto;
   color: #000000;
-  line-height: 18px;
 }
 
 .containerSupport {
@@ -546,12 +550,11 @@
   word-break: break-word;
   border-style: solid;
 }
-.containerSupport .sectionSupport .formSupport .askSupport .askSupport:hover {
+.containerSupport .sectionSupport .formSupport .askSupport:hover {
   background-color: rgb(85, 216, 73);
   transition: all 0.8s linear;
   margin: auto;
   color: #000000;
-  line-height: 18px;
 }
 
 .containerPayMethod {
@@ -1061,12 +1064,7 @@ footer .footerContainer .footerSupport a {
     font-size: 1rem;
   }
 }
-* {
-  font-family: "Noto Serif", serif;
-}
-
 body {
-  background-color: rgba(114, 176, 227, 0.4274509804) !important;
   line-height: 20px;
   margin: 0px;
   display: flex;
@@ -1079,4 +1077,12 @@ body {
   padding-bottom: 45px;
   padding-top: 0px;
   min-height: 100vh;
+}
+
+* {
+  font-family: "Noto Serif", serif;
+}
+
+body {
+  background-color: rgba(114, 176, 227, 0.4274509804) !important;
 }/*# sourceMappingURL=main.css.map */

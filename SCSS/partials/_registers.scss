@@ -40,9 +40,8 @@
       padding: 8px 18px;
       text-decoration: none;
       &:hover{
-        background-color: rgb(85, 216, 73);
-        transition: all 0.8s;
-        color: #000000;
+        @include hoverButton($color: map-get($buttons, "colorSuccess"));
+        margin-top: 1rem;
       } 
     }
   }
@@ -84,11 +83,7 @@
         word-break: break-word;
         border-style: solid;
         &:hover{
-          background-color: rgb(227, 68, 68);
-              transition: all 0.8s linear;
-              margin: auto;
-              color: #ffffff;
-              line-height: 18px;
+          @include hoverButton($color: map-get($buttons, "colorDanger"));
         } 
       } 
       .botonFormRegister{
@@ -112,11 +107,7 @@
         word-break: break-word;
         border-style: solid;
         &:hover{
-          background-color: rgb(85, 216, 73);
-          transition: all 0.8s linear;
-          margin: auto;
-          color: #000000;
-          line-height: 18px;
+          @include hoverButton($color: map-get($buttons, "colorSuccess"));
         } 
       } 
     }
@@ -169,12 +160,8 @@
         width: fit-content;
         word-break: break-word;
         border-style: solid;
-        .askSupport:hover{
-          background-color: rgb(85, 216, 73);
-          transition: all 0.8s linear;
-          margin: auto;
-          color: #000000;
-          line-height: 18px;
+        &:hover{
+          @include hoverButton($color: map-get($buttons, "colorSuccess"));
         }
       }
     }
