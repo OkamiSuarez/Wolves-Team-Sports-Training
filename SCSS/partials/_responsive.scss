@@ -286,7 +286,30 @@
         }
       }   
     }
-    // store
+    // training programs
+    .containerProgramas {
+      h3{
+        margin: 1rem;
+      }
+      .programasTabla {
+        .buttonCompraTrainings{
+          font-size: 10px;
+          }
+        } 
+        .containerQuotes{
+        padding-bottom: 2rem;
+        blockquote{
+          width: 14rem;
+        font-size: 0.7rem;
+        .imgQuote{
+          width: 12rem;
+          }
+        p{
+          font-size: 0.7rem;
+        }
+      }
+      }
+    }
 }
 
   @media screen and (max-width: 480px) {
@@ -480,4 +503,28 @@
         }
       }   
     }
+        // training programs
+        .containerProgramas {
+          h3{
+            margin: 0.5rem;
+          }
+          .programasTabla {
+            .buttonCompraTrainings{
+              font-size: 8px;
+              }
+            } 
+            .containerQuotes{
+            padding-bottom: 2rem;
+            width: 12rem;
+            blockquote{
+            font-size: 0.7rem;
+            .imgQuote{
+              width: 10rem;
+              }
+            p{
+              font-size: 0.6rem;
+            }
+          }
+          }
+        }
   }
