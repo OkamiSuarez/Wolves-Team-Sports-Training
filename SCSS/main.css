@@ -140,6 +140,17 @@ button {
   width: 100%;
   height: 45vh;
 }
+.gridIndex .containerCarousel .carouselText0 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 1rem;
+  opacity: 0.7;
+}
+.gridIndex .containerCarousel .carouselText0 h5 {
+  color: #000;
+}
+.gridIndex .containerCarousel .carouselText0 p {
+  color: #000;
+}
 .gridIndex .containerCarousel .carouselText {
   background-color: rgb(255, 255, 255);
   border-radius: 1rem;
@@ -222,14 +233,18 @@ button {
 
 .containerProgramas {
   display: flex;
+  flex-direction: column;
   align-items: center;
   margin: auto;
   width: 100%;
   padding: 0.2rem;
 }
+.containerProgramas h3 {
+  margin: 2rem;
+}
 .containerProgramas .programasTabla {
   padding: 0.5rem;
-  width: 950%;
+  width: 95%;
 }
 .containerProgramas .programasTabla .buttonCompraTrainings {
   background: #f4f5f4;
@@ -259,6 +274,36 @@ button {
   transition: all 0.8s linear;
   margin: auto;
   color: #000000;
+}
+.containerProgramas .containerQuotes {
+  position: relative;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 1rem 1rem;
+  padding-bottom: 3rem;
+  justify-content: center;
+  width: 95%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.containerProgramas .containerQuotes blockquote {
+  width: 17rem;
+  background-color: rgba(255, 255, 255, 0.8235294118);
+  display: flex;
+  border: solid;
+  font-size: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding: 1rem;
+}
+.containerProgramas .containerQuotes blockquote .imgQuote {
+  width: 15rem;
+  padding-bottom: 1rem;
+}
+.containerProgramas .containerQuotes blockquote p {
+  font-size: 0.8rem;
 }
 
 .containerStore {
@@ -363,9 +408,6 @@ button {
   justify-content: center;
   align-items: center;
 }
-.flexBlog .articuloBlog .contenedorCard .imgCardBlog {
-  width: 23rem !important;
-}
 
 .containerSignIn {
   padding: 1rem;
@@ -375,6 +417,7 @@ button {
   align-content: center;
   justify-content: center;
   align-items: center;
+  padding-bottom: 3rem;
 }
 .containerSignIn .formSignIn {
   display: flex;
@@ -907,6 +950,25 @@ footer .footerContainer .footerSupport a {
   .containerPayMethod .seccionRegistro form div button {
     font-size: 1.5rem;
   }
+  .containerProgramas h3 {
+    margin: 1rem;
+  }
+  .containerProgramas .programasTabla .buttonCompraTrainings {
+    font-size: 10px;
+  }
+  .containerProgramas .containerQuotes {
+    padding-bottom: 2rem;
+  }
+  .containerProgramas .containerQuotes blockquote {
+    width: 14rem;
+    font-size: 0.7rem;
+  }
+  .containerProgramas .containerQuotes blockquote .imgQuote {
+    width: 12rem;
+  }
+  .containerProgramas .containerQuotes blockquote p {
+    font-size: 0.7rem;
+  }
 }
 @media screen and (max-width: 480px) {
   .containerCarousel {
@@ -965,6 +1027,7 @@ footer .footerContainer .footerSupport a {
   .containerPayMethod {
     padding: 0.5rem;
     width: 80%;
+    padding-bottom: 3rem;
   }
   .containerPayMethod .containerTextPay h1 {
     font-size: 2rem;
@@ -992,6 +1055,23 @@ footer .footerContainer .footerSupport a {
   }
   .containerSignIn .formSignIn div label {
     font-size: 1.5rem;
+  }
+  .containerStore {
+    width: 90%;
+  }
+  .containerStore .storeSection {
+    width: 100%;
+    padding-bottom: 45px;
+  }
+  .containerStore .storeSection .storeCards .card-container {
+    width: 290px;
+    height: 600px;
+    margin: 0.2rem;
+  }
+  .containerStore .storeSection .storeCards .card-container img {
+    width: 140px;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
   }
 }
 @media screen and (max-width: 320px) {
@@ -1041,6 +1121,7 @@ footer .footerContainer .footerSupport a {
   .containerPayMethod {
     padding: 0.5rem;
     width: 80%;
+    padding-bottom: 3rem;
   }
   .containerPayMethod .containerTextPay h1 {
     font-size: 2rem;
@@ -1062,6 +1143,42 @@ footer .footerContainer .footerSupport a {
   }
   .containerPayMethod .seccionRegistro form div button {
     font-size: 1rem;
+  }
+  .containerProgramas h3 {
+    margin: 0.5rem;
+  }
+  .containerProgramas .programasTabla .buttonCompraTrainings {
+    font-size: 8px;
+  }
+  .containerProgramas .containerQuotes {
+    padding-bottom: 2rem;
+    width: 12rem;
+  }
+  .containerProgramas .containerQuotes blockquote {
+    font-size: 0.7rem;
+  }
+  .containerProgramas .containerQuotes blockquote .imgQuote {
+    width: 10rem;
+  }
+  .containerProgramas .containerQuotes blockquote p {
+    font-size: 0.6rem;
+  }
+  .containerStore {
+    width: 80%;
+  }
+  .containerStore .storeSection {
+    width: 100%;
+    padding-bottom: 45px;
+  }
+  .containerStore .storeSection .storeCards .card-container {
+    width: 200px;
+    height: 600px;
+    margin: 0.1rem;
+  }
+  .containerStore .storeSection .storeCards .card-container img {
+    width: 100px;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
   }
 }
 body {

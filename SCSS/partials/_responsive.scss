@@ -286,7 +286,30 @@
         }
       }   
     }
-    // store
+    // training programs
+    .containerProgramas {
+      h3{
+        margin: 1rem;
+      }
+      .programasTabla {
+        .buttonCompraTrainings{
+          font-size: 10px;
+          }
+        } 
+        .containerQuotes{
+        padding-bottom: 2rem;
+        blockquote{
+          width: 14rem;
+        font-size: 0.7rem;
+        .imgQuote{
+          width: 12rem;
+          }
+        p{
+          font-size: 0.7rem;
+        }
+      }
+      }
+    }
 }
 
   @media screen and (max-width: 480px) {
@@ -355,6 +378,7 @@
     .containerPayMethod{
       padding: 0.5rem;
       width: 80%;
+      padding-bottom: 3rem;
       .containerTextPay{
             h1{
                 font-size: 2rem;
@@ -395,89 +419,155 @@
         }
       }
     } 
-}
-
-  @media screen and (max-width: 320px) {
-
-    .navegador{
-      ul {
-        li{
-          a{
-            font-size: 1.2rem !important;
-            &:hover{
-              background-color: #a6c6e0;
-            }    
+  // Store
+  .containerStore {
+    width: 90%;
+    .storeSection {
+      width: 100%;
+      padding-bottom: 45px;
+      .storeCards{
+        .card-container{
+          width: 290px;
+          height: 600px;
+          margin: 0.2rem;
+          img{
+            width: 140px;
+            padding-top: 0.2rem;
+            padding-bottom: 0.2rem;
           }
         }
       }
-    }
-    i {
-      font-size: 15px;
-      padding-left: 2px;
-      margin-left: 2px;
-    }
-    .footerSupport {
-      border-radius: 90px;
-      font-size: 15px;
-      width: 60px;
-      a{
-        padding: 1px;
-      }
-    }
-    .footerLinks {
-      padding: 0.5px;
-      margin-left: 3px;
-      margin-right: 1px;
-    }
-    .tituloBlog {
-      font-size: 18px;
-    }
-    .articuloBlog {
-      padding: 6px;
-      margin: 4px 4px 4px 4px;
-    }
-    .blogText {
-      font-size: 9px;
-    }
-    .containerProgramas h1 {
-      font-size: 20px;
-    }
-    .containerRegistros h1 {
-      font-size: 20px;
-    }
-    // Carrusel index
-    .containerCarousel{
-      display: none;
-    }
-    .containerPayMethod{
-      padding: 0.5rem;
-      width: 80%;
-      .containerTextPay{
-            h1{
-                font-size: 2rem;
-            }
-            h4{
-                font-size: 1rem;
-            }
-      }
-      .seccionRegistro{
-        padding: 0.5rem;
-        form{
-          div{
-            .form-label{
-              font-size: 2rem;
-            }
-            input{
-              font-size: 1rem;
-            }
-            select{
-              font-size: 1rem;
-            }
-            button{
-              font-size: 1rem;
-            }
-          }
-        }
-      }   
     }
   }
+}
+
+@media screen and (max-width: 320px) {
+
+  .navegador{
+    ul {
+      li{
+        a{
+          font-size: 1.2rem !important;
+          &:hover{
+            background-color: #a6c6e0;
+          }    
+        }
+      }
+    }
+  }
+  i {
+    font-size: 15px;
+    padding-left: 2px;
+    margin-left: 2px;
+  }
+  .footerSupport {
+    border-radius: 90px;
+    font-size: 15px;
+    width: 60px;
+    a{
+      padding: 1px;
+    }
+  }
+  .footerLinks {
+    padding: 0.5px;
+    margin-left: 3px;
+    margin-right: 1px;
+  }
+  .tituloBlog {
+    font-size: 18px;
+  }
+  .articuloBlog {
+    padding: 6px;
+    margin: 4px 4px 4px 4px;
+  }
+  .blogText {
+    font-size: 9px;
+  }
+  .containerProgramas h1 {
+    font-size: 20px;
+  }
+  .containerRegistros h1 {
+    font-size: 20px;
+  }
+  // Carrusel index
+  .containerCarousel{
+    display: none;
+  }
+  .containerPayMethod{
+    padding: 0.5rem;
+    width: 80%;
+    padding-bottom: 3rem;
+
+    .containerTextPay{
+          h1{
+              font-size: 2rem;
+          }
+          h4{
+              font-size: 1rem;
+          }
+    }
+    .seccionRegistro{
+      padding: 0.5rem;
+      form{
+        div{
+          .form-label{
+            font-size: 2rem;
+          }
+          input{
+            font-size: 1rem;
+          }
+          select{
+            font-size: 1rem;
+          }
+          button{
+            font-size: 1rem;
+          }
+        }
+      }
+    }   
+  }
+  // training programs
+  .containerProgramas {
+    h3{
+      margin: 0.5rem;
+    }
+    .programasTabla {
+      .buttonCompraTrainings{
+        font-size: 8px;
+        }
+      } 
+      .containerQuotes{
+      padding-bottom: 2rem;
+      width: 12rem;
+      blockquote{
+      font-size: 0.7rem;
+      .imgQuote{
+        width: 10rem;
+        }
+      p{
+        font-size: 0.6rem;
+        }
+      }
+    }
+  }
+    // Store
+    .containerStore {
+      width: 80%;
+      .storeSection {
+        width: 100%;
+        padding-bottom: 45px;
+        .storeCards{
+          .card-container{
+            width: 200px;
+            height: 600px;
+            margin: 0.1rem;
+            img{
+              width: 100px;
+              padding-top: 0.2rem;
+              padding-bottom: 0.2rem;
+            }
+          }
+        }
+      }
+    }
+}
