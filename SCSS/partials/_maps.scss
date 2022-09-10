@@ -3,7 +3,3 @@ $buttons: (
     colorDanger: rgb(227, 68, 68),
     colorBackground: white,
 );
-
-button{
-    background-color: map-get($buttons, "colorSuccess");
-}

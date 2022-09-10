@@ -123,10 +123,6 @@
   transform: rotate(180deg);
 }
 
-button {
-  background-color: rgb(85, 216, 73);
-}
-
 .gridIndex {
   display: grid;
   justify-items: center;
@@ -297,6 +293,7 @@ button {
   justify-content: center;
   align-content: center;
   padding: 1rem;
+  height: 32rem;
 }
 .containerProgramas .containerQuotes blockquote .imgQuote {
   width: 15rem;
@@ -366,7 +363,7 @@ button {
 .containerStore .storeSection .storeCards .card-container a {
   font-size: 1.5rem;
   text-decoration: overline;
-  color: green;
+  color: rgb(120, 160, 120);
 }
 
 .tituloBlog {
@@ -407,6 +404,8 @@ button {
   align-content: center;
   justify-content: center;
   align-items: center;
+  height: 38rem;
+  width: 20rem;
 }
 
 .containerSignIn {
@@ -479,11 +478,10 @@ button {
 }
 .containerRegister .seccionRegistro .botonFormReset {
   background-color: rgb(255, 255, 255);
-  background: #ffffff;
   border-radius: 999px;
   box-shadow: #5E5DF0 0 10px 20px -10px;
   box-sizing: border-box;
-  color: #000000;
+  color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 15px;
   font-weight: 70;
@@ -510,11 +508,10 @@ button {
 }
 .containerRegister .seccionRegistro .botonFormRegister {
   background-color: rgb(255, 255, 255);
-  background: #ffffff;
   border-radius: 999px;
   box-shadow: #5E5DF0 0 10px 20px -10px;
   box-sizing: border-box;
-  color: #000000;
+  color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 15px;
   font-weight: 70;
@@ -570,11 +567,10 @@ button {
 }
 .containerSupport .sectionSupport .formSupport .askSupport {
   background-color: rgb(255, 255, 255);
-  background: #ffffff;
   border-radius: 999px;
   box-shadow: #5E5DF0 0 10px 20px -10px;
   box-sizing: border-box;
-  color: #000000;
+  color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 15px;
   font-weight: 70;

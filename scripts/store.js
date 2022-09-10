@@ -30,8 +30,3 @@ function buyProduct() {
 
 // // Este es el encargado de renderizar las cards para poder comprar
 
-// function mostrarProductos (){
-
-//     const contenedor = document.getElementById("producto-contenedor");
-
-// };

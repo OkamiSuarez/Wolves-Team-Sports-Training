@@ -1,3 +1,5 @@
+$colorCardLink : rgb(120, 160, 120);
+
 .containerStore {
   display: flex;
   width: 98%;
@@ -54,7 +56,7 @@
         a{
           font-size: 1.5rem;
           text-decoration: overline;
-          color: green;
+          color: $colorCardLink;
         }
       }
     }

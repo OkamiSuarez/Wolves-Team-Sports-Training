@@ -1,4 +1,9 @@
-// Sign In
+$whiteButton: rgb(255, 255, 255);
+$blackButton: rgb(0, 0, 0);
+$textColor: rgb(0, 0, 0);
+
+
+// Sign In<
 .containerSignIn {
     padding: 1rem;
     display: flex;
@@ -33,7 +38,7 @@
     }
     .signInRegister{
       margin-top: 1rem;
-      background-color: rgb(255, 255, 255);
+      background-color: $whiteButton;
       border-radius: 999px;
       box-shadow: #5e5df0 0 10px 20px -10px;
       color: #000000;
@@ -64,12 +69,11 @@
         text-align: center;
       }
       .botonFormReset{
-        background-color: rgb(255, 255, 255);
-        background: #ffffff;
+        background-color: $whiteButton;
         border-radius: 999px;
         box-shadow: #5E5DF0 0 10px 20px -10px;
         box-sizing: border-box;
-        color: #000000;
+        color: $textColor ;
         cursor: pointer;
         font-size: 15px;
         font-weight: 70;
@@ -88,12 +92,11 @@
         } 
       } 
       .botonFormRegister{
-        background-color: rgb(255, 255, 255);
-        background: #ffffff;
+        background-color: $whiteButton;
         border-radius: 999px;
         box-shadow: #5E5DF0 0 10px 20px -10px;
         box-sizing: border-box;
-        color: #000000;
+        color: $textColor;
         cursor: pointer;
         font-size: 15px;
         font-weight: 70;
@@ -142,12 +145,11 @@
         font-size: 2rem;
       }
       .askSupport{
-        background-color: rgb(255, 255, 255);
-        background: #ffffff;
+        background-color: $whiteButton;
         border-radius: 999px;
         box-shadow: #5E5DF0 0 10px 20px -10px;
         box-sizing: border-box;
-        color: #000000;
+        color:$textColor;
         cursor: pointer;
         font-size: 15px;
         font-weight: 70;
